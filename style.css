@@ -1,0 +1,121 @@
+body{
+    font-family: 'Delius', cursive;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(126, 186, 226);
+    margin-bottom: 50px;
+    height: 200px;
+    padding: 1px;
+    box-shadow: rgba(0,0,0, 0.35) 0px 2px 15px;
+}
+
+h1{
+    font-size: 100px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+
+.containerImagen{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.info{
+    width: 100%;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.card{
+    background-color: #f3c1b2;
+    margin: 20px;
+    width: 500px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    display: flex;
+    overflow: hidden;
+}
+
+.card:hover{
+    background-color: #f1aa94;
+}
+
+.categorias{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+footer{
+    background-color: rgb(126, 186, 226);
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+
+.footerParrafo{
+    font-size: 20px;
+    margin: 0;
+}
+
+.cardPersonajes{
+    background-color: #f3c1b2;
+    margin: 20px;
+    width: 200px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    display: flex;
+    overflow: hidden;
+}
+
+.infoPersonaje{
+    width: 100%;
+    margin: 10px;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.cardPersonajes:hover{
+    background-color: #f1aa94;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(126, 186, 226);
+    margin-bottom: 50px;
+    height: 20hv;
+    padding: 1px;
+    box-shadow: rgba(0,0,0, 0.35) 0px 2px 15px;
+}
+
+h3{
+   font-size: 30px;
+}
+
+#volver{
+    font-size: 15px;
+}
