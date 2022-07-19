@@ -21,6 +21,7 @@ h1{
 
 h2{
     font-size: 25px;
+    margin-left: 5px;
 }
 
 main{
@@ -40,6 +41,7 @@ main{
     width: 100%;
     font-size: 20px;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 .card{
@@ -117,6 +119,7 @@ nav{
 
 h3{
    font-size: 30px;
+   text-align: center;
 }
 
 #volver{
@@ -145,16 +148,18 @@ h3{
         justify-content: center;
         align-items: center;
     }
-    .inicio{
+    header{
         display: flex;
         justify-content: center;
-        height: 100px;
     }
     h1{
-        font-size: 70px;
+        font-size: 65px;
+        text-align: center;
+        width: min-content;
     }
     h2{
         font-size: 20px;
+
     }
     .categoria-personajes{
         margin-bottom: 5px;
@@ -170,15 +175,18 @@ h3{
         justify-content: center;
         align-items: center;
     }
-    .inicio{
+    header{
         display: flex;
         justify-content: center;
     }
     h1{
         font-size: 50px;
+        text-align: center;
     }
     h2{
         font-size: 20px;
+        text-align: center;
+        margin-right: 30px;
     }
     .card{
         width: 300px;
@@ -189,6 +197,10 @@ h3{
     }
     .info{
         font-size: 15px;
+    }
+    .categoria-personajes{
+        margin-bottom: 5px;
+        font-size: 10px;
     }
 }
 
