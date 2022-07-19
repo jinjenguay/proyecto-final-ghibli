@@ -28,7 +28,7 @@ fetch(url)
           <p class= "valorCategoria">${tituloOriginal}</p>
           <p class= "categorias">Año: </p>
           <p class= "valorCategoria">${fechaEstreno}</p>
-          <a href= "./personajes.html" class="categorias">Todos los personajes</a>
+          <a href= "./personajes.html" class="categoria-personajes">Todos los personajes</a>
         </div>
       </div> 
       `
